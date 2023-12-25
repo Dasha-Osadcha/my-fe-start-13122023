@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="content">
+            <div class="intake-header">
+                <h3>Intake Main Flow</h3>
+                <p>
+                    <span>
+                        *
+                    </span>
+                     Mandatory field
+                </p>
+                <h4>Information</h4>
+            </div>
+            <div class="intake-page"> 
+                <div class="information-form">
+                    <div class="left-form">
+                        <form action="#"  method="post">
+                            <div>
+                                <label for="type">Intake Type 
+                                    <span>
+                                        * (select)
+                                    </span>
+                                </label>
+                                <select>
+                                    <option value="01">Referral</option>
+                                    <option value="02">Industry</option>
+                                    <option value="03">Branch</option>
+                                    <option value="04">Department</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="phone">phone</label>
+                                <input type="tel" name="phone">
+                            </div>
+                            <div>
+                                <label for="email">email</label>
+                                <input type="email" name="email">
+                            </div>
+                            <div class="blue">
+                                <label for="type">
+                                    Application Registration (Optional)
+                                </label>
+                                <select>
+                                    <option value="01">APP0000116</option>
+                                    <option value="02">Industry</option>
+                                    <option value="03">Branch</option>
+                                    <option value="04">Department</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="RequestedDate">Additional Information Requested Date (Optional)
+                                </label>
+                                <input type="date" class="centr font-family" name="date" value="2021-05-13">
+                            </div>
+                            <div>
+                                <label for="quantity">
+                                    Remaining Days Before Referral is Purged (Optional)
+                                </label>
+                                <input type="number" value="13">
+                            </div>
+                            <div>
+                                <label for="RequestedDate">Fee Payment Date (Optional)
+                                </label>
+                                <input type="date" class="centr font-family" name="date" value="2021-05-13">
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" name="free" checked>
+                                <label for="free">Application Fee Processed</label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="right-form">
+                        <form action="#">
+                            <div>
+                                <label for="RequestedDate">
+                                    Enrollment Initiation Date jquery
+                                </label>
+                                <input type="date" name="date" value="2021-05-13" disabled class="disabled font-family">
+                            </div>
+                            <div>
+                                <label for="type">
+                                    Application Category<span>*</span>
+                                </label>
+                                <select>
+                                    <option value="01">Child Support</option>
+                                    <option value="02">Industry</option>
+                                    <option value="03">Branch</option>
+                                    <option value="04">Department</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="RequestedDate">
+                                    Enrollment Submission Date (Optional)
+                                </label>
+                                <input type="date" name="date" value="2021-05-13" disabled class="disabled centr font-family">
+                            </div>
+                            <div class="checkbox purged">
+                                <input type="checkbox" name="free">
+                                <label for="free">Purged</label>
+                            </div>
+                            <div>
+                                <label for="type">
+                                    Exempt from Paternity (Optional)   (select)
+                                </label>
+                                <select>
+                                    <option value="01">No</option>
+                                    <option value="02">Yes</option>
+                                    <option value="03">Maybe</option>
+                                    <option value="04">Of cource</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="type">
+                                    Enrollment Status (Optional)
+                                </label>
+                                <select>
+                                    <option value="01">Worklisted</option>
+                                    <option value="02">Yes</option>
+                                    <option value="03">Maybe</option>
+                                    <option value="04">Of cource</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="maternity-info">
+                    <div class="header-name">
+                        <h4>
+                            Maternity Information
+                        </h4>
+                    </div>
+                    <div class="block-wrap">
+                        <div class="left-form">
+                            <form action="#">
+                                <div class="checkbox">
+                                    <input type="checkbox" name="free">
+                                    <label for="free">
+                                        Are you requesting child support services for an unborn child?
+                                    </label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="right-form">
+                            <form action="#">
+                                <div>
+                                    <label for="type">
+                                        Other known biological parent? (Optional)
+                                    </label>
+                                    <select>
+                                        <option value="01">None</option>
+                                        <option value="02">Yes</option>
+                                        <option value="03">Maybe</option>
+                                        <option value="04">Of cource</option>
+                                    </select>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="official-use">
+                    <div class="header-name">
+                        <h4>
+                            Official Use
+                        </h4>
+                    </div>
+                    <div class="official-wrap">
+                        <div class="left-form">
+                            <form action="#">
+                                <div>
+                                    <label for="type">
+                                        Case Category (select)  
+                                    </label>
+                                    <select>
+                                        <option value="01">Active IV-A</option>
+                                        <option value="02">Yes</option>
+                                        <option value="03">Maybe</option>
+                                        <option value="04">Of cource</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="type">
+                                        Arrears Only Indicator (Optional)  
+                                    </label>
+                                    <select>
+                                        <option value="01">None</option>
+                                        <option value="02">Yes</option>
+                                        <option value="03">Maybe</option>
+                                        <option value="04">Of cource</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="type">
+                                        Assigned County of Ownership (Optional)  
+                                    </label>
+                                    <select>
+                                        <option value="01">None</option>
+                                        <option value="02">Yes</option>
+                                        <option value="03">Maybe</option>
+                                        <option value="04">Of cource</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="type">
+                                        Intergovermental Case Status (details)  
+                                    </label>
+                                    <select>
+                                        <option value="01">None</option>
+                                        <option value="02">Yes</option>
+                                        <option value="03">Maybe</option>
+                                        <option value="04">Of cource</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="type">
+                                        Special Handling Indicator for Applicant (Optional)  
+                                    </label>
+                                    <select>
+                                        <option value="01">None</option>
+                                        <option value="02">Yes</option>
+                                        <option value="03">Maybe</option>
+                                        <option value="04">Of cource</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="type">
+                                        Special Handling Indicator for Other Parent(Optional)  
+                                    </label>
+                                    <select>
+                                        <option value="01">None</option>
+                                        <option value="02">Yes</option>
+                                        <option value="03">Maybe</option>
+                                        <option value="04">Of cource</option>
+                                    </select>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="right-form">
+                            <form action="#">
+                                <div>
+                                    <label for="type">
+                                        IV-D Indicator <span>*</span>
+                                    </label>
+                                    <select>
+                                        <option value="01">Non-IV-D</option>
+                                        <option value="02">Yes</option>
+                                        <option value="03">Maybe</option>
+                                        <option value="04">Of cource</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="type">
+                                        Intergovernmental Case Category (Optional)
+                                    </label>
+                                    <select>
+                                        <option value="01">None</option>
+                                        <option value="02">Yes</option>
+                                        <option value="03">Maybe</option>
+                                        <option value="04">Of cource</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="type">
+                                        Intergovernmental Case Type (Optional)
+                                    </label>
+                                    <select>
+                                        <option value="01">None</option>
+                                        <option value="02">Yes</option>
+                                        <option value="03">Maybe</option>
+                                        <option value="04">Of cource</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="type">
+                                        Case Number
+                                    </label>
+                                    <input type="search" id="site-search" name="q" placeholder="Search Case Number">
+                                </div>
+                                <div>
+                                    <label for="type">
+                                        Referral Number
+                                    </label>
+                                    <input type="search" id="site-search" name="q" placeholder="Search Case Number">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="system-info">
+                    <div class="header-name">
+                        <h4>
+                            System Information
+                        </h4>
+                    </div>
+                    <div class="system-wrap">
+                        <div class="left-form">
+                            <form action="#">
+                                <div>
+                                    <label for="type">
+                                        Enrollment Taken by User 
+                                    </label>
+                                    <input type="search" id="site-search" name="q" placeholder="Search Input">
+                                </div>
+                                <div>
+                                    <label for="type">
+                                        Worker (Optional)
+                                    </label>
+                                    <input type="search" id="site-search" name="q" placeholder="Search Input">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="right-form">
+                            <form action="#">
+                                <div>
+                                    <label for="type">
+                                        Intake Supervisor (Optional)
+                                    </label>
+                                    <input type="search" id="site-search" name="q" placeholder="Search">
+                                </div>
+                                <div>
+                                    <label for="type">
+                                        Owner (Optional)
+                                    </label>
+                                    <input type="search" id="site-search" name="q" placeholder="Rajaneesh Banal" class="blue">
+                                </div>
+                            </form> 
+                        </div>
+                    </div>
+                </div>
+                <div class="form-button">
+                    <button class="button-next btn" type="submit">
+                        Next
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -10,17 +10,15 @@ h2{
     margin: 43px 0;
 }
 
-.container-login, .container-registr{
-    display: flex;
-    background: #001124;
-    color: #fff;
-    min-height: 100vh;
-    padding-top: 190px;
+h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 79px;
 }
 
-.login-enter{
-    width: 361px;
-    padding-left: 107px;
+h4{
+    font-size: 20px;
+    font-weight: 700;
 }
 
 form{
@@ -46,16 +44,14 @@ form span{
 }
 
 label{
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
+    margin-top: 21px;
+    display: inline-block;
 }
 
 input{
     width: 361px;
     height: 43px;
     padding: 0;
-    margin-bottom: 10px;
     border: none;
 }
 
@@ -76,6 +72,28 @@ form p{
     cursor: pointer;
 }
 
+.container-login, .container-registr{
+    display: flex;
+    background: #001124;
+    color: #fff;
+    min-height: 100vh;
+    padding-top: 190px;
+}
+
+.login-enter{
+    width: 361px;
+    padding-left: 107px;
+}
+
+.login-enter input{
+    margin-bottom: 10px;
+}
+
+.login-enter label{
+    font-size: 20px;
+    font-weight: 400;
+}
+
 .container-registr{
     justify-content: center;
 }
@@ -94,4 +112,125 @@ form p{
     display: block;
     margin: 37px auto;
     border-radius: 5px;
+}
+
+section{
+    background: #f9f9f9;
+    color: #171717;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.content{
+    width: 826px;
+    margin: 0 auto;
+}
+
+.intake-page span{
+    color: #D83933;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.intake-page p{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 24px 0;
+    padding: 0 41px;
+}
+
+.information-form, .official-wrap, .system-wrap{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #d1d1d1;
+    padding-bottom: 20px;
+}
+
+select, input{
+    width: 392px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 4px;
+    border: 1px solid #adadad;
+    height: 40px;
+    background: #fff;
+}
+
+input{
+    padding-left: 5px;
+}
+
+.information-form select{
+    padding: 8px 10px;
+}
+
+.left-form{
+    width: 392px;
+}
+
+.left-form label{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.blue select{
+    color: #0050D8;
+}
+
+.centr{
+    text-align: center;
+}
+
+.font-family{
+    font-family: Public Sans;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    margin-top: 21px;
+}
+
+.checkbox input{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.checkbox label{
+    margin-top: 0;
+}
+
+.right-form{
+    width: 392px;
+}
+
+.disabled{
+    background: #efefef;
+}
+
+.purged{
+    margin-top: 133px;
+}
+
+.block-wrap{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.maternity-info{
+    border-bottom: 1px solid #d1d1d1;
+    padding-bottom: 20px;
+}
+
+.button-next{
+    border-radius: 5px;
+    padding: 12px 16px;
+    width: auto;
+}
+
+.form-button{
+    display: flex;
+    justify-content: flex-end;
 }
