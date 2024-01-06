@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+footer, header{
+    display: block;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    font-family: 'Public Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #FAFAFA;
+}
+
+body{
+    background: rgba(28, 82, 221, 0.56);
+}
+
+a, button{
+    font-family: inherit
+}
+
+a{
+    text-decoration: none;
+    color: #EBEBEB;
+}
+
+header{
+    padding-top: 62px;
+}
+
+h1{
+    font-size: 70px;
+    width: 550px;
+}
+
+p{
+    color: #E5E5E5;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+button{
+    cursor: pointer;
+}
+
+.container{
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.symbol{
+    width: 42px;
+    height: 43px;
+    border-radius: 3px 0px 0px 3px;
+    background: linear-gradient(90deg, #345AA4 0%, #3F009C 154.76%);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white{
+    width: 19px;
+    height: 20px;
+    background: #fff;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+
+span{
+    font-size: 48px;
+    font-weight: 600; 
+    margin-left: 11px;  
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    font-size: 30px;
+    font-weight: 500;
+    margin-right: 60px;
+}
+
+li:first-child{
+    color: #FFF;
+    font-weight: 600;
+}
+
+li:last-child{
+    margin-right: 40px;
+}
+
+.navigation{
+    display: flex;
+}
+
+.btn-nav{
+    width: 164px;
+    height: 61px;
+    border-radius: 13px;
+    background: linear-gradient(90deg, #345AA4 -28.35%, rgba(63, 0, 156, 0.00) 153.96%);
+    color: #E5E5E5;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.m-top{
+    margin-top: 63px;
+}
+
+.btn{
+    margin-top: 55px;
+    width: 277px;
+    height: 85px;
+    border-radius: 13px;
+    color: #E5E5E5;
+    font-size: 36px;
+    font-weight: 500;
+    background: linear-gradient(90deg, #345AA4 0%, rgba(63, 0, 156, 0.92) 164.26%);
+}
