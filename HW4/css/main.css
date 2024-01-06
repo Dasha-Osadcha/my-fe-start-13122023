@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+footer, header{
+    display: block;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    font-family: 'Public Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+input, button{
+    font-family: inherit
+}
+
+input{
+    width: 560px;
+    border-radius: 2px 0 0 2px;
+    font-size: 30px;
+    color: #999;
+    font-weight: 400;
+    line-height: 54px;  
+    padding-left: 36px;
+}
+
+button{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    text-align: center;
+}
+
+h1{
+    font-size: 44px;
+    color: #8A6D2F;
+    width: 680px;
+    text-align: center;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 54px;
+}
+
+h2{
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+p{
+    color: rgba(0, 0, 0, 0.40);
+    width: 819px;
+    text-align: center;
+    font-size: 23px;
+    line-height: 30px;
+    display: inline-block;
+    margin-top: 72px;
+}
+
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 65px 0 59px;
+}
+
+.fb-icon{
+    margin-right: 19px;
+}
+
+.dont-worry, .tell-more{
+    background: #FAC960;
+    padding: 102px 0 117px;
+}
+
+.proposition-content{
+    padding: 0 67px;
+}
+
+form{
+    margin-top: 40px;
+}
+
+.button{
+    width: 240px;
+    height: 54px;
+    border-radius: 0px 2px 2px 0px;
+    background: #A8863D;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+}
+
+.btn-more{
+    display: block;
+    width: 61px;
+    height: 22px;
+    border-radius: 3px;
+    border: 1px solid #758696;  
+    background: #FFF;
+    color: #999;
+    margin: 0 auto;
+    margin-top: 33px
+}
+
+.unlimited{
+    background: #F2F2F2;
+}
+
+.unlimited-content{
+    padding: 77px 0 81px;
+}
+
+.unlimited-content>img{
+    margin-top: 56px;
+}
+
+.mobile-content{
+    padding: 89px 0 22px;
+}
+
+.mobile-content>img{
+    margin-top: 32px;
+}
+
+.tell-content>p{
+    margin-top: 30px;
+}
+
+.footer{
+    background: #F2F2F2;
+}
+
+.footer-logo{
+    display: grid;
+    justify-content: center;
+    padding: 82px 0 82px;
+}
+
+.footer-logo>.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icons{
+    margin-top: 24px;
+}
+
+.footer-icons>a>img{
+    width: 17px;
+    height: 17px;
+}
+
+.footer-icons>a:nth-child(2){
+    margin: 0 22px;
+}
